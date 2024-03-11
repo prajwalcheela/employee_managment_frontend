@@ -1,0 +1,57 @@
+.table-container {
+    margin-top: 20px;
+}
+
+.table-container input {
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+    padding: 7px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.employee-table th {
+    background-color: #f2f2f2;
+}
+
+.employee-table td img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.action-buttons button {
+    margin-right: 3px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+.action-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.create-employee-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.create-employee-button:hover {
+    background-color: #0056b3;
+}

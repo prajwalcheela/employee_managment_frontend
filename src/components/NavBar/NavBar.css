@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #b1afca;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    /* justify-content: center; */
+    list-style: none;
+    gap:10px;
+}
+
+.btn{
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: #f9fafb;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px
+}
